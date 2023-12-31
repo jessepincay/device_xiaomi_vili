@@ -37,5 +37,9 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.set_touch_timer_ms=6000 \
     ro.surface_flinger.set_display_power_timer_ms=1000
 
+# Rootdir
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/init.vili.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vili.rc
+
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/vili/vili-vendor.mk)
