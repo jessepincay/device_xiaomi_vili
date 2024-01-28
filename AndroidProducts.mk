@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_vili.mk
+    $(LOCAL_DIR)/superior_vili.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_vili-user \
-    lineage_vili-userdebug \
-    lineage_vili-eng
+    superior_vili-user \
+    superior_vili-userdebug \
+    superior_vili-eng
