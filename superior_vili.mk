@@ -12,7 +12,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/vili/device.mk)
 
 # Inherit some common Superior stuff.
-$(call inherit-product, vendor/superior/config/common_full_phone.mk)
+$(call inherit-product, vendor/superior/config/common.mk)
+
+# Stuff Superior Extended
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USES_AOSP_RECOVERY := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+
+# Mantainer
+MAINTAINER := Jezzay97
+
+# Blur
+TARGET_ENABLE_BLUR := true
+
+# Pixel Stuff
+TARGET_INCLUDE_PIXEL_CHARGER := true
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := vili
