@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_vili.mk
+    $(LOCAL_DIR)/pixelstar_vili.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_vili-user \
-    superior_vili-userdebug \
-    superior_vili-eng
+    pixelstar_vili-user \
+    pixelstar_vili-userdebug \
+    pixelstar_vili-eng
