@@ -16,11 +16,12 @@ $(call inherit-product, vendor/pixelstar/config/common_full_phone.mk)
 
 # Stuff PixelStar
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
-PIXELSTAR_BUILD_TYPE := Unofficial
+PIXELSTAR_BUILD_TYPE := official
 USE_PIXEL_CHARGER := true
 
 PRODUCT_BRAND := Xiaomi

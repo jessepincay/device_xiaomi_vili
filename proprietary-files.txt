@@ -292,6 +292,8 @@ vendor/lib64/vendor.xiaomi.hardware.cameraperf@1.0-impl.so
 vendor/lib64/vendor.xiaomi.hardware.cameraperf@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0-service-impl.so
 vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
+vendor/lib64/libcup_preview.so
+vendor/lib64/libcamera_scene_dxo.so
 
 # Camera-firmware
 vendor/firmware/CAMERA_ICP.elf
